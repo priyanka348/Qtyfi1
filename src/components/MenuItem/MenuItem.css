@@ -1,0 +1,40 @@
+.menu-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+    padding: 22px;
+  
+    gap: 20px;
+  
+    border: 1px solid var(--color-primary);
+  
+    background-color: var(--color-black);
+    color: var(--color-white);
+  }
+  
+  .menu-item img {
+    width: 50px;
+    height: 50px;
+  
+    object-fit: cover;
+  }
+  
+  .menu-item-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .menu-item-title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .menu-item-followers {
+    font-size: 14px;
+    padding-left: 5rem;
+    color: gray;
+  }
+  
